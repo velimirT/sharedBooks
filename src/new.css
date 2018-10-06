@@ -1,0 +1,25 @@
+.flex {
+  display: flex;
+}
+
+.outer {
+  border: 1px solid red;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.modal-add-form {
+  flex-direction: column;
+}
+
+.add-form-popup {
+  width: 100%;
+  text-align: center;
+}
+
+.user-books-list,
+.add-form {
+  border: 1px solid black;
+  width: 50%;
+}
